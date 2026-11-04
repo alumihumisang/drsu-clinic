@@ -1,28 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
-  <!-- Four differently oriented eyes, following the supplied clinic logo. -->
-  <g stroke="#a582ad" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Left-facing eye and its separate upper eyelid. -->
-    <g>
-      <path d="M8 63C24 52 41 49 62 58C46 79 23 84 8 63Z"/>
-      <path d="M24 59C30 68 39 67 45 58"/>
-      <path d="M4 52C25 44 43 43 62 53"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120" fill="none">
+  <defs>
+    <!-- One eye-shaped wing, based on the upper-left motif of the clinic logo. -->
+    <g id="eye-wing" stroke="#a184ae" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0C-18-11-39-10-55 4C-40 20-17 19 0 0Z"/>
+      <path d="M-59-8C-37-17-16-17 2-5"/>
     </g>
-    <!-- Tall upward-facing eye. -->
-    <g>
-      <path d="M68 57C66 36 77 19 103 13C106 40 95 55 68 57Z"/>
-      <path d="M80 45C78 35 82 28 89 25C93 33 88 41 80 45Z"/>
-      <path d="M67 46C65 28 76 12 94 4"/>
-    </g>
-    <!-- Slender downward-facing eye with a detached outer arc. -->
-    <g>
-      <path d="M62 68C48 78 46 95 54 109C69 98 72 84 62 68Z"/>
-      <path d="M61 80C54 84 54 91 59 96"/>
-      <path d="M71 75C77 90 72 103 64 114"/>
-    </g>
-    <!-- Small eye angled toward the lower right. -->
-    <g>
-      <path d="M75 64C91 57 105 64 113 79C96 84 83 79 75 64Z"/>
-      <path d="M87 66C87 73 93 77 101 75"/>
-    </g>
-  </g>
+  </defs>
+  <!-- Mirror the upper pair; rotate and reduce the same shape for the lower pair. -->
+  <use href="#eye-wing" transform="translate(65 54) rotate(24)"/>
+  <use href="#eye-wing" transform="translate(75 54) scale(-1 1) rotate(24)"/>
+  <use href="#eye-wing" transform="translate(65 64) rotate(-62) scale(.72)"/>
+  <use href="#eye-wing" transform="translate(75 64) scale(-1 1) rotate(-62) scale(.72)"/>
 </svg>
