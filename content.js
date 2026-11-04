@@ -3,7 +3,7 @@ window.clinicContent = {
   name: '電眼美人診所',
   englishName: 'DR. SU',
   tagline: '讓美，回到自己的節奏。',
-  introduction: '從理解你的期待開始，一起找到適合自己的美麗方向。',
+  introduction: '從理解您的期待開始，一起找到適合自己的美麗方向。',
   logo: 'S__29081618_0.jpg',
   doctorImage: 'dr形像照.jpg',
   doctorName: '蘇惠珍',
