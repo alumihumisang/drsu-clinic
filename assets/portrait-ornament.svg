@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 470" fill="none">
+  <g stroke="#aa8dbb" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 7H278Q313 7 313 42V374Q313 463 224 463H42Q7 463 7 428V96Q7 7 96 7Z" stroke-width="1.2" opacity=".8"/>
+    <!-- Fine botanical scrolls occupy the space outside the rounded photograph. -->
+    <g stroke-width="1.15">
+      <path d="M12 104C12 57 39 17 88 13M17 75C24 50 44 31 70 23"/>
+      <path d="M27 53C15 46 22 34 37 33C37 44 33 50 27 53ZM38 38C35 24 47 20 59 24C55 34 47 39 38 38Z"/>
+      <path d="M51 29C56 18 65 16 75 20C69 28 61 31 51 29Z"/>
+      <path d="M23 61C27 70 36 70 39 64C43 55 32 52 30 59"/>
+      <path d="M308 366C308 413 281 453 232 457M303 395C296 420 276 439 250 447"/>
+      <path d="M293 417C305 424 298 436 283 437C283 426 287 420 293 417ZM282 432C285 446 273 450 261 446C265 436 273 431 282 432Z"/>
+      <path d="M269 441C264 452 255 454 245 450C251 442 259 439 269 441Z"/>
+      <path d="M297 409C293 400 284 400 281 406C277 415 288 418 290 411"/>
+      <path d="M286 15Q305 15 305 34M15 436Q15 455 34 455" opacity=".65"/>
+    </g>
+  </g>
+  <g fill="#aa8dbb" opacity=".7">
+    <circle cx="94" cy="13" r="1.5"/><circle cx="18" cy="86" r="1.5"/>
+    <circle cx="226" cy="457" r="1.5"/><circle cx="302" cy="384" r="1.5"/>
+  </g>
+</svg>
