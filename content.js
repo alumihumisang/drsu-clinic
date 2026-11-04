@@ -16,7 +16,7 @@ window.clinicContent = {
   ],
   phone: '(02)2778-9600',
   address: '106臺北市大安區誠安里忠孝東路三段239號3樓',
-  hours: '星期三～星期五 12:00–20:00\n星期六 12:00–20:00（隔週看診）\n全預約制，請提前預約並確認週六看診日期', // 可用 \n 換行
+  hours: '星期三～星期五 12:00–20:00\n星期六 12:00–20:00（隔週看診）\n全預約制，敬請提前預約', // 可用 \n 換行
   lineUrl: 'https://lin.ee/tS4YmMY', // 診所官方 LINE 的完整 https:// 連結
   mapUrl: 'https://maps.app.goo.gl/apYvScpdnLGZQrqU7', // Google 地圖的完整 https:// 連結
   notice: '', // 有公告時填入文字，留白則不顯示公告區
