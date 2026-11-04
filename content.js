@@ -5,7 +5,7 @@ window.clinicContent = {
   tagline: '讓美，回到自己的節奏。',
   introduction: '從理解你的期待開始，一起找到適合自己的美麗方向。',
   logo: 'S__29081618_0.jpg',
-  doctorImage: 'S__29081620_0.jpg',
+  doctorImage: 'dr形像照.jpg',
   doctorName: '蘇惠珍',
   // 以下依資料夾內學經歷照片整理，上線前請診所確認最新內容。
   credentials: [
@@ -17,7 +17,7 @@ window.clinicContent = {
   phone: '', // 例如：02-1234-5678
   address: '',
   hours: '', // 可用 \n 換行
-  lineUrl: '', // 診所官方 LINE 的完整 https:// 連結
+  lineUrl: 'https://lin.ee/tS4YmMY', // 診所官方 LINE 的完整 https:// 連結
   mapUrl: '', // Google 地圖的完整 https:// 連結
   notice: '', // 有公告時填入文字，留白則不顯示公告區
   treatments: [
