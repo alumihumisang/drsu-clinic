@@ -88,4 +88,15 @@
     byId('filters').append(button);
   });
   renderTreatments('全部療程');
+  // Let the decorative butterfly drift once when the section comes into view.
+  const butterfly = document.querySelector('.butterfly--treatments');
+  if (butterfly && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) {
+        butterfly.classList.add('is-visible');
+        observer.disconnect();
+      }
+    }, { threshold: 0.5 });
+    observer.observe(butterfly);
+  }
 })();

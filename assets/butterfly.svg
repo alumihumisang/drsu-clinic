@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 110" fill="none">
+  <!-- A decorative leaf-wing butterfly inspired by the clinic's linework. -->
+  <g stroke="#a582ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 55C40 30 20 25 8 28C12 50 29 67 58 55Z"/>
+    <path d="M58 55C58 28 76 9 100 7C104 30 86 51 58 55Z"/>
+    <path d="M57 60C36 60 24 77 27 101C47 94 58 80 57 60Z"/>
+    <path d="M62 59C79 51 96 62 105 80C84 88 66 80 62 59Z"/>
+    <path d="M48 50C36 39 24 37 18 36C24 48 34 54 48 50Z" stroke-width="1.3"/>
+    <path d="M68 42C70 29 81 19 91 16C91 29 81 39 68 42Z" stroke-width="1.3"/>
+    <path d="M50 70C40 75 35 83 34 91" stroke-width="1.3"/>
+    <path d="M72 64C79 64 88 69 94 75" stroke-width="1.3"/>
+    <path d="M54 76C59 65 63 54 65 44M65 44C61 35 57 31 52 30M65 44C70 36 76 33 81 34"/>
+  </g>
+</svg>
