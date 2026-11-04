@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#756184">
+  <meta name="description" content="電眼美人診所 DR. SU｜療程資訊、醫師介紹與預約聯絡。">
+  <title>電眼美人診所 DR. SU｜讓美，回到自己的節奏</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <div class="preview-note">網站提案預覽 <span>・</span> 診所資訊待確認</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="電眼美人診所首頁">
+      <span class="brand-en" data-field="englishName">DR. SU</span>
+      <span class="brand-zh" data-field="name">電眼美人診所</span>
+    </a>
+    <nav aria-label="主要導覽">
+      <a href="#treatments">療程介紹</a>
+      <a href="#doctor">認識醫師</a>
+      <a href="#contact" class="nav-contact">預約諮詢 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-line"></span> DR. SU AESTHETIC CLINIC</p>
+        <h1 id="hero-title">讓美，<br>回到自己的<span class="accent">節奏。</span></h1>
+        <p class="hero-description" data-field="introduction">從理解你的期待開始，一起找到適合自己的美麗方向。</p>
+        <a class="button primary" href="#treatments">探索適合你的療程 <span aria-hidden="true">↗</span></a>
+        <div class="hero-footnote"><span class="footnote-index">01 /</span><span>專業醫療的細緻，<br>與對每一個你的用心。</span></div>
+      </div>
+      <div class="hero-visual">
+        <span class="orbit orbit-one" aria-hidden="true"></span>
+        <span class="orbit orbit-two" aria-hidden="true"></span>
+        <div class="portrait-frame"><img id="hero-portrait" src="S__29081620_0.jpg" alt="診所提供的蘇惠珍醫師照片" width="845" height="1188" fetchpriority="high"></div>
+        <div class="portrait-caption"><span>以專業為底，留一份溫柔給自己。</span><span class="caption-en">A LITTLE CARE, JUST FOR YOU.</span></div>
+        <span class="vertical-caption" aria-hidden="true">PROFESSIONAL · PERSONAL · REFINED</span>
+      </div>
+    </section>
+    <div class="intro-strip"><span>理解期待</span><i aria-hidden="true">✧</i><span>專業評估</span><i aria-hidden="true">✧</i><span>細緻照護</span></div>
+    <aside id="notice" class="notice section-shell" hidden><p class="eyebrow">CLINIC NEWS / 診所公告</p><p id="notice-text"></p></aside>
+    <section class="treatments section-shell" id="treatments" aria-labelledby="treatment-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / OUR TREATMENTS</p><h2 id="treatment-title">關於美，從了解開始。</h2></div><p>每個人的需求都不同。<br>先認識療程，再與醫師討論適合你的選擇。</p></div>
+      <div class="filters" id="filters" role="group" aria-label="依療程類別篩選"></div>
+      <p class="sr-only" id="result-count" role="status" aria-live="polite"></p>
+      <div id="treatment-list" class="treatment-list"></div>
+      <p class="treatment-note">療程適用性、內容與相關注意事項，請由醫師於諮詢時評估與說明。</p>
+    </section>
+    <section class="doctor-section" id="doctor" aria-labelledby="doctor-title"><div class="section-shell doctor-layout">
+      <div class="doctor-title-block"><p class="eyebrow">02 / MEET YOUR DOCTOR</p><h2 id="doctor-title">美的背後，<br>是專業與理解。</h2><div class="doctor-signature" aria-hidden="true">Dr. Su</div></div>
+      <div class="doctor-details"><p class="doctor-label">認識醫師</p><h3><span data-field="doctorName">蘇惠珍</span><small>醫師</small></h3><ul id="credentials"></ul><p class="source-note">學經歷依診所提供資料整理，待診所確認。</p></div>
+    </div></section>
+    <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro"><p class="eyebrow">03 / VISIT US</p><h2 id="contact-title">把一點時間，<br>留給自己。</h2><p>關於療程、門診與預約，<br>歡迎與我們聯繫。</p><a id="line-link" class="button primary" hidden>LINE 預約諮詢 <span aria-hidden="true">↗</span></a><p id="booking-pending" class="pending">預約方式待診所提供</p></div>
+      <div class="contact-details"><div class="contact-row"><span>診所名稱</span><p data-field="name">電眼美人診所</p></div><div class="contact-row"><span>聯絡電話</span><p id="phone"></p></div><div class="contact-row"><span>診所地址</span><div><p id="address"></p><a id="map-link" class="text-link" hidden>開啟 Google 地圖 ↗</a></div></div><div class="contact-row"><span>門診時間</span><p id="hours"></p></div></div>
+    </section>
+  </main>
+  <footer><div class="section-shell footer-inner"><div><img id="clinic-logo" src="S__29081618_0.jpg" alt="DR. SU 電眼美人診所 Logo" width="159" height="78" loading="lazy"><p>讓美，回到自己的節奏。</p></div><div class="footer-end"><a href="#home">回到頁首 ↑</a><p>© <span id="year"></span> <span data-field="name">電眼美人診所</span></p><p>本頁為網站設計提案，資訊確認後正式公開。</p></div></div></footer>
+  <noscript><p class="noscript-note">請啟用 JavaScript 以顯示完整療程與聯絡資訊。本頁目前為設計提案。</p></noscript>
+</body>
+</html>
