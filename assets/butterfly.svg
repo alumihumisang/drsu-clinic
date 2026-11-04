@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120" fill="none">
   <defs>
-    <!-- One eye-shaped wing, based on the upper-left motif of the clinic logo. -->
-    <g id="eye-wing" stroke="#a184ae" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M0 0C-18-11-39-10-55 4C-40 20-17 19 0 0Z"/>
-      <path d="M-59-8C-37-17-16-17 2-5"/>
+    <!-- Every wing uses this complete outline and matching outer flourish. -->
+    <g id="wing" stroke="#a184ae" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0 C-19 -10 -37 -8 -54 4 C-40 22 -18 22 0 0 Z"/>
+      <path d="M-58 -7 C-37 -15 -18 -15 0 -5"/>
     </g>
   </defs>
-  <!-- Mirror the upper pair; rotate and reduce the same shape for the lower pair. -->
-  <use href="#eye-wing" transform="translate(65 54) rotate(24)"/>
-  <use href="#eye-wing" transform="translate(75 54) scale(-1 1) rotate(24)"/>
-  <use href="#eye-wing" transform="translate(65 64) rotate(-62) scale(.72)"/>
-  <use href="#eye-wing" transform="translate(75 64) scale(-1 1) rotate(-62) scale(.72)"/>
+  <!-- Equal-sized upper pair; the same shape at 72% size for the lower pair. -->
+  <use href="#wing" transform="translate(65 54) rotate(24)"/>
+  <use href="#wing" transform="translate(75 54) scale(-1 1) rotate(24)"/>
+  <use href="#wing" transform="translate(65 64) rotate(-62) scale(.72)"/>
+  <use href="#wing" transform="translate(75 64) scale(-1 1) rotate(-62) scale(.72)"/>
 </svg>
