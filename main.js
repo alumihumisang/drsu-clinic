@@ -13,7 +13,9 @@
   document.querySelector('.footer-inner > div > p').textContent = content.tagline;
   document.querySelector('.brand').setAttribute('aria-label', `${content.name}首頁`);
   byId('hero-portrait').src = content.doctorImage;
-  byId('hero-portrait').alt = `診所提供的${content.doctorName}醫師照片`;
+  byId('hero-portrait').alt = `${content.doctorName}醫師全身形象照`;
+  byId('doctor-avatar').src = content.doctorAvatar;
+  byId('doctor-avatar').alt = `${content.doctorName}醫師頭像`;
   byId('clinic-logo').src = content.logo;
   byId('clinic-logo').alt = `${content.name} Logo`;
   byId('year').textContent = new Date().getFullYear();

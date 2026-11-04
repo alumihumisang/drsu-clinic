@@ -5,7 +5,8 @@ window.clinicContent = {
   tagline: '讓美，回到自己的節奏。',
   introduction: '從理解您的期待開始，一起找到適合自己的美麗方向。',
   logo: 'S__29081618_0.jpg',
-  doctorImage: 'dr形像照.jpg',
+  doctorImage: 'S__29081620_0.jpg', // 首頁全身照
+  doctorAvatar: 'dr形像照.jpg', // 認識醫師區的小頭像
   doctorName: '蘇惠珍',
   // 以下摘錄自診所提供的學經歷照片，內容已確認。
   credentials: [
