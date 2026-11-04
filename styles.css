@@ -9,13 +9,6 @@
   .contact{grid-template-columns:minmax(0,.9fr) minmax(440px,1.1fr);gap:60px}
   #address{white-space:nowrap}
 }
-/* Give the mobile address a full row; scale long copy gently on narrow phones. */
-@media(max-width:600px){
-  .hero-copy,.contact-details{min-width:0}
-  .hero-description{max-width:none;white-space:nowrap;font-size:min(13px,calc((100vw - 40px) / 25))}
-  .contact-row--address{grid-template-columns:minmax(0,1fr);gap:7px}
-  #address{white-space:nowrap;font-size:min(13px,calc((100vw - 40px) / 22))}
-}
 /* Original photo background with generous space for the botanical surround. */
 .hero-visual{width:100%;max-width:340px;margin-inline:auto;padding:0 22px 0 12px}
 .portrait-mat{position:relative;isolation:isolate;padding:0;border:0;background:transparent;box-shadow:none}
