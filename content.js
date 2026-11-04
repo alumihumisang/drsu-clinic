@@ -7,7 +7,7 @@ window.clinicContent = {
   logo: 'S__29081618_0.jpg',
   doctorImage: 'dr形像照.jpg',
   doctorName: '蘇惠珍',
-  // 以下依資料夾內學經歷照片整理，上線前請診所確認最新內容。
+  // 以下摘錄自診所提供的學經歷照片，內容已確認。
   credentials: [
     '台北榮民總醫院眼科部主治醫師',
     '中華民國眼科專科醫師',
@@ -16,7 +16,7 @@ window.clinicContent = {
   ],
   phone: '(02)2778-9600',
   address: '106臺北市大安區誠安里忠孝東路三段239號3樓',
-  hours: '星期三～星期六 12:00–20:00\n全預約制，請提前預約', // 可用 \n 換行
+  hours: '星期三～星期五 12:00–20:00\n星期六 12:00–20:00（隔週看診）\n全預約制，請提前預約並確認週六看診日期', // 可用 \n 換行
   lineUrl: 'https://lin.ee/tS4YmMY', // 診所官方 LINE 的完整 https:// 連結
   mapUrl: 'https://maps.app.goo.gl/apYvScpdnLGZQrqU7', // Google 地圖的完整 https:// 連結
   notice: '', // 有公告時填入文字，留白則不顯示公告區
