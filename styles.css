@@ -6,8 +6,8 @@
 /* Distinct actions: pastel lavender for treatments, LINE green for booking. */
 .hero .primary{background:#ead5ed;color:#61456e}
 .hero .primary:hover{background:#e0c3e5;color:#52375f}
-#line-link{position:relative;justify-content:center;gap:8px;min-height:48px;padding:11px 18px;border-radius:50%;background:#06c755;color:#073b1c;box-shadow:0 7px 18px #06c7551a;font-weight:500}
-#line-link::after{content:"";position:absolute;left:26px;bottom:-4px;width:11px;height:10px;background:inherit;clip-path:polygon(10% 0,100% 0,0 100%);pointer-events:none}
+#line-link{position:relative;justify-content:center;gap:8px;min-height:50px;padding:12px 20px;border-radius:21px;background:#06c755;color:#073b1c;box-shadow:0 7px 18px #06c7551a;font-weight:500}
+#line-link::after{content:"";position:absolute;left:20px;bottom:-12px;width:18px;height:16px;background:inherit;clip-path:polygon(22% 0,100% 0,0 100%);pointer-events:none}
 #line-link .line-brand{font-family:Arial,sans-serif;font-size:15px;font-weight:800;letter-spacing:.3px}
 #line-link:hover{background:#05b34c;color:#052e16}
 /* Qualifications span the section instead of being confined beside the title. */
