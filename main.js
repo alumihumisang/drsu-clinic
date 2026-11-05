@@ -7,15 +7,15 @@
     element.textContent = content[element.dataset.field] || '';
   });
   document.title = `${content.name} ${content.englishName}｜${content.tagline}`;
-  document.querySelector('meta[name="description"]').content = `${content.name} ${content.englishName}｜療程資訊、醫師介紹與預約聯絡。`;
+  document.querySelector('meta[name="description"]').content = `${content.name} ${content.englishName}｜療程資訊、院長介紹與預約聯絡。`;
   // 首頁標語需要換行，因此在預設文案時保留設計；修改文案則自動換成新文字。
   if (content.tagline !== '讓美，回到自己的節奏。') byId('hero-title').textContent = content.tagline;
   document.querySelector('.footer-inner > div > p').textContent = content.tagline;
   document.querySelector('.brand').setAttribute('aria-label', `${content.name}首頁`);
   byId('hero-portrait').src = content.doctorImage;
-  byId('hero-portrait').alt = `${content.doctorName}醫師全身形象照`;
+  byId('hero-portrait').alt = `${content.doctorName}院長全身形象照`;
   byId('doctor-avatar').src = content.doctorAvatar;
-  byId('doctor-avatar').alt = `${content.doctorName}醫師頭像`;
+  byId('doctor-avatar').alt = `${content.doctorName}院長頭像`;
   byId('clinic-logo').src = content.logo;
   byId('clinic-logo').alt = `${content.name} Logo`;
   byId('year').textContent = new Date().getFullYear();
