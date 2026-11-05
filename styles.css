@@ -6,16 +6,20 @@
 /* Distinct actions: pastel lavender for treatments, LINE green for booking. */
 .hero .primary{background:#ead5ed;color:#61456e}
 .hero .primary:hover{background:#e0c3e5;color:#52375f}
-#line-link{background:#06c755;color:#073b1c}
+#line-link{position:relative;gap:14px;min-height:50px;padding:12px 22px;border-radius:28px 28px 28px 10px;background:#06c755;color:#073b1c;box-shadow:0 7px 18px #06c7551a;font-weight:500}
+#line-link::after{content:"";position:absolute;left:20px;bottom:-7px;width:14px;height:12px;background:inherit;clip-path:polygon(0 0,100% 0,0 100%);pointer-events:none}
+#line-link .line-brand{font-family:Arial,sans-serif;font-size:15px;font-weight:800;letter-spacing:.3px}
 #line-link:hover{background:#05b34c;color:#052e16}
-/* Keep the complete qualifications readable at each screen size. */
-.doctor-layout{grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:56px}
-.doctor-details{min-width:0;padding-left:36px}
-.doctor-details ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px}
-.doctor-details li{position:relative;padding-left:18px;margin:0;overflow-wrap:anywhere}
-.doctor-details li::before{position:absolute;left:0;margin:0}
-@media(max-width:900px){.doctor-layout{grid-template-columns:1fr;gap:32px}.doctor-details{padding-left:24px}}
-@media(max-width:600px){.doctor-details{padding-left:20px}.doctor-details ul{grid-template-columns:1fr;gap:12px}}
+/* Qualifications span the section instead of being confined beside the title. */
+.doctor-layout{grid-template-columns:minmax(220px,.65fr) minmax(0,1.35fr);gap:32px 56px}
+.doctor-details{min-width:0;padding-left:36px;align-self:center}
+.doctor-details .doctor-profile{margin-bottom:0}
+#credentials{grid-column:1 / -1;min-width:0;list-style:none;margin:0;padding:8px 0 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;overflow-x:auto}
+#credentials li{position:relative;margin:0;padding:12px 0 12px 16px;border-bottom:1px solid #dcd2e2;font-size:13px;line-height:1.8;color:#62566b;white-space:nowrap;overflow-wrap:normal}
+#credentials li::before{content:"";position:absolute;left:0;top:calc(50% - 2px);width:4px;height:4px;border-radius:50%;background:#a38bb2}
+@media(max-width:900px){.doctor-layout{grid-template-columns:1fr;gap:28px}.doctor-details{padding-left:24px}}
+@media(max-width:800px){#credentials{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:600px){.doctor-details{padding-left:20px}#credentials li{font-size:clamp(12px,3.5vw,13px)}}
 /* Widen desktop copy and move contact details left to keep both sentences on one line. */
 @media(min-width:901px){
   .hero-description{max-width:none;white-space:nowrap}
